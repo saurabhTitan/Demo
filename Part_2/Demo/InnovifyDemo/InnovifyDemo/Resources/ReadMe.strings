@@ -1,0 +1,29 @@
+/* 
+  ReadMe.strings
+  InnovifyDemo
+
+  Created by Saurabh Vaza on 21/11/17.
+  Copyright © 2017 Saurabh. All rights reserved.
+*/
+
+//Case Study Title:
+
+//As a vehicle owner, I should be able to track my vehicle's location after a fixed time interval so that I am aware of my vehicle's location.
+
+//Description: -
+//Need to design a screen with on/off button to start/stop location tracking.
+//- Location should be captured after every 30 seconds interval, if speed >= 80
+//- Location should be captured after every minute if speed < 80 and speed >= 60
+//- Location should be captured after every 2 minutes if speed < 60 and speed >= 30
+//- Location should be captured after every 5 minutes if speed < 30 Captured location should be saved as file in SD card with format as follows;
+//- Time Latitude Longitude Current time interval(in seconds), Next time interval(in seconds) ex. 22/04/17-11:00:00:100 23.0 72.40 30 60 Also captured location should be saved in SQLite database
+//
+//Scenario: - If vehicle speed goes down suddenly then it should decrease time interval gradually (i.e 30 seconds > 1 minutes > 2 minutes > 5 minutes) Ex. If the vehicle is moving with speed at 90km/h and suddenly it stops with speed at 20km/h then time interval should not decrease from 30 seconds to 5 minutes but instead, it should calculate next time interval to be 1 minute.
+//
+//Expected Output: Working iOS project source code, Unit test cases, unit test result, Database design document, Flow chart for given problem
+//
+//NOTE: Share your assignment through Github at innovify@gmail.com
+
+
+
+

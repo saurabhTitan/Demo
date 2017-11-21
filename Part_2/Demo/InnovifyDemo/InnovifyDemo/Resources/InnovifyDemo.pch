@@ -1,0 +1,17 @@
+//
+//  InnovifyDemo.pch
+//  InnovifyDemo
+//
+//  Created by Saurabh Vaza on 21/11/17.
+//  Copyright © 2017 Saurabh. All rights reserved.
+//
+
+#ifndef InnovifyDemo_pch
+#define InnovifyDemo_pch
+
+#import "OTOConstants.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* InnovifyDemo_pch */

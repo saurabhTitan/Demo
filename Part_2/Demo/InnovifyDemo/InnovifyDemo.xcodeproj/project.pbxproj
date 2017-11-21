@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82FEDCC51FC461BB0047C4D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FEDCC41FC461BB0047C4D5 /* AppDelegate.m */; };
+		82FEDCCD1FC461BB0047C4D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FEDCCC1FC461BB0047C4D5 /* Assets.xcassets */; };
+		82FEDCD31FC461BB0047C4D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FEDCD21FC461BB0047C4D5 /* main.m */; };
+		82FEDCDE1FC46A130047C4D5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82FEDCE01FC46A130047C4D5 /* Localizable.strings */; };
+		82FEDCED1FC46ECF0047C4D5 /* MainVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FEDCE41FC46ECE0047C4D5 /* MainVCViewController.m */; };
+		82FEDCF31FC4701B0047C4D5 /* ReadMe.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82FEDCF21FC4701B0047C4D5 /* ReadMe.strings */; };
+		82FEDD001FC472980047C4D5 /* OTOGeneralSharedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FEDCFC1FC472980047C4D5 /* OTOGeneralSharedManager.m */; };
+		82FEDD051FC474960047C4D5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FEDD041FC474960047C4D5 /* Reachability.m */; };
+		82FEDD071FC476870047C4D5 /* InnovifyDemo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 82FEDD061FC476870047C4D5 /* InnovifyDemo.sqlite */; };
+		82FEDD0C1FC477980047C4D5 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 82FEDD091FC477970047C4D5 /* readme.md */; };
+		82FEDD0D1FC477980047C4D5 /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FEDD0B1FC477970047C4D5 /* SQLiteManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		82FEDD0F1FC477A70047C4D5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 82FEDD0E1FC477A70047C4D5 /* libsqlite3.0.tbd */; };
+		82FEDD121FC47CA40047C4D5 /* OTOLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FEDD111FC47CA40047C4D5 /* OTOLocationManager.m */; };
+		82FEDD151FC480850047C4D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FEDD141FC480850047C4D5 /* Main.storyboard */; };
+		AC2DFAEB665095DEF2437D9F /* libPods-InnovifyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBC59A70301560B7B9709B9 /* libPods-InnovifyDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82FEDCC01FC461BB0047C4D5 /* InnovifyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnovifyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FEDCC31FC461BB0047C4D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82FEDCC41FC461BB0047C4D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82FEDCCC1FC461BB0047C4D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82FEDCD11FC461BB0047C4D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FEDCD21FC461BB0047C4D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82FEDCDF1FC46A130047C4D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		82FEDCE31FC46ECE0047C4D5 /* MainVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVCViewController.h; sourceTree = "<group>"; };
+		82FEDCE41FC46ECE0047C4D5 /* MainVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVCViewController.m; sourceTree = "<group>"; };
+		82FEDCF11FC46F500047C4D5 /* InnovifyDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InnovifyDemo.pch; sourceTree = "<group>"; };
+		82FEDCF21FC4701B0047C4D5 /* ReadMe.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = ReadMe.strings; sourceTree = "<group>"; };
+		82FEDCF41FC472010047C4D5 /* OTOAPIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTOAPIConstants.h; sourceTree = "<group>"; };
+		82FEDCF51FC472010047C4D5 /* OTOColorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTOColorConstants.h; sourceTree = "<group>"; };
+		82FEDCF61FC472010047C4D5 /* OTOMessageConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTOMessageConstants.h; sourceTree = "<group>"; };
+		82FEDCF71FC472020047C4D5 /* OTOUserDefaultConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTOUserDefaultConstants.h; sourceTree = "<group>"; };
+		82FEDCF81FC472020047C4D5 /* OTOConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTOConstants.h; sourceTree = "<group>"; };
+		82FEDCFB1FC472980047C4D5 /* OTOGeneralSharedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTOGeneralSharedManager.h; sourceTree = "<group>"; };
+		82FEDCFC1FC472980047C4D5 /* OTOGeneralSharedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTOGeneralSharedManager.m; sourceTree = "<group>"; };
+		82FEDD031FC474960047C4D5 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		82FEDD041FC474960047C4D5 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		82FEDD061FC476870047C4D5 /* InnovifyDemo.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = InnovifyDemo.sqlite; sourceTree = "<group>"; };
+		82FEDD091FC477970047C4D5 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		82FEDD0A1FC477970047C4D5 /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteManager.h; sourceTree = "<group>"; };
+		82FEDD0B1FC477970047C4D5 /* SQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteManager.m; sourceTree = "<group>"; };
+		82FEDD0E1FC477A70047C4D5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		82FEDD101FC47CA40047C4D5 /* OTOLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTOLocationManager.h; sourceTree = "<group>"; };
+		82FEDD111FC47CA40047C4D5 /* OTOLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTOLocationManager.m; sourceTree = "<group>"; };
+		82FEDD131FC47ED80047C4D5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		82FEDD141FC480850047C4D5 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BAE216EFAC7F4CE72956DC83 /* Pods-InnovifyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InnovifyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-InnovifyDemo/Pods-InnovifyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EFBC59A70301560B7B9709B9 /* libPods-InnovifyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InnovifyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31FC96F3CA15B776C6713DF /* Pods-InnovifyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InnovifyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InnovifyDemo/Pods-InnovifyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82FEDCBD1FC461BB0047C4D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FEDD0F1FC477A70047C4D5 /* libsqlite3.0.tbd in Frameworks */,
+				AC2DFAEB665095DEF2437D9F /* libPods-InnovifyDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		169351FFA0DA5992673DA096 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F31FC96F3CA15B776C6713DF /* Pods-InnovifyDemo.debug.xcconfig */,
+				BAE216EFAC7F4CE72956DC83 /* Pods-InnovifyDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82FEDCB71FC461BA0047C4D5 = {
+			isa = PBXGroup;
+			children = (
+				82FEDCC21FC461BB0047C4D5 /* InnovifyDemo */,
+				82FEDCC11FC461BB0047C4D5 /* Products */,
+				169351FFA0DA5992673DA096 /* Pods */,
+				8B4540E90E2E36ABE2A665C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82FEDCC11FC461BB0047C4D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDCC01FC461BB0047C4D5 /* InnovifyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82FEDCC21FC461BB0047C4D5 /* InnovifyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDCE21FC46ECE0047C4D5 /* Classes */,
+				82FEDCE91FC46ECF0047C4D5 /* Constants */,
+				82FEDCE81FC46ECF0047C4D5 /* Models */,
+				82FEDCEA1FC46ECF0047C4D5 /* OtherClasses */,
+				82FEDCEB1FC46ECF0047C4D5 /* Supporting Files */,
+				82FEDCE61FC46ECE0047C4D5 /* ThirdParty */,
+				82FEDCE51FC46ECE0047C4D5 /* Utility */,
+				82FEDCE71FC46ECE0047C4D5 /* Resources */,
+				82FEDCEC1FC46ECF0047C4D5 /* Views */,
+				82FEDCD11FC461BB0047C4D5 /* Info.plist */,
+				82FEDCD21FC461BB0047C4D5 /* main.m */,
+				82FEDCE01FC46A130047C4D5 /* Localizable.strings */,
+			);
+			path = InnovifyDemo;
+			sourceTree = "<group>";
+		};
+		82FEDCE21FC46ECE0047C4D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDCEF1FC46EF20047C4D5 /* MainVC */,
+				82FEDCEE1FC46EE30047C4D5 /* AppDelegate */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		82FEDCE51FC46ECE0047C4D5 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		82FEDCE61FC46ECE0047C4D5 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDD021FC474960047C4D5 /* Reachability */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		82FEDCE71FC46ECE0047C4D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDD061FC476870047C4D5 /* InnovifyDemo.sqlite */,
+				82FEDCF11FC46F500047C4D5 /* InnovifyDemo.pch */,
+				82FEDCF21FC4701B0047C4D5 /* ReadMe.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		82FEDCE81FC46ECF0047C4D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		82FEDCE91FC46ECF0047C4D5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDCF81FC472020047C4D5 /* OTOConstants.h */,
+				82FEDCF41FC472010047C4D5 /* OTOAPIConstants.h */,
+				82FEDCF51FC472010047C4D5 /* OTOColorConstants.h */,
+				82FEDCF61FC472010047C4D5 /* OTOMessageConstants.h */,
+				82FEDCF71FC472020047C4D5 /* OTOUserDefaultConstants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		82FEDCEA1FC46ECF0047C4D5 /* OtherClasses */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDCF91FC472980047C4D5 /* SharedClasses */,
+			);
+			path = OtherClasses;
+			sourceTree = "<group>";
+		};
+		82FEDCEB1FC46ECF0047C4D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82FEDCEC1FC46ECF0047C4D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDCF01FC46F140047C4D5 /* Storyboards */,
+				82FEDCCC1FC461BB0047C4D5 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82FEDCEE1FC46EE30047C4D5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDCC31FC461BB0047C4D5 /* AppDelegate.h */,
+				82FEDCC41FC461BB0047C4D5 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		82FEDCEF1FC46EF20047C4D5 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDCE31FC46ECE0047C4D5 /* MainVCViewController.h */,
+				82FEDCE41FC46ECE0047C4D5 /* MainVCViewController.m */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		82FEDCF01FC46F140047C4D5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDD141FC480850047C4D5 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		82FEDCF91FC472980047C4D5 /* SharedClasses */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDD081FC477970047C4D5 /* Database */,
+				82FEDCFA1FC472980047C4D5 /* General */,
+			);
+			path = SharedClasses;
+			sourceTree = "<group>";
+		};
+		82FEDCFA1FC472980047C4D5 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDCFB1FC472980047C4D5 /* OTOGeneralSharedManager.h */,
+				82FEDCFC1FC472980047C4D5 /* OTOGeneralSharedManager.m */,
+				82FEDD101FC47CA40047C4D5 /* OTOLocationManager.h */,
+				82FEDD111FC47CA40047C4D5 /* OTOLocationManager.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		82FEDD021FC474960047C4D5 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDD031FC474960047C4D5 /* Reachability.h */,
+				82FEDD041FC474960047C4D5 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		82FEDD081FC477970047C4D5 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDD091FC477970047C4D5 /* readme.md */,
+				82FEDD0A1FC477970047C4D5 /* SQLiteManager.h */,
+				82FEDD0B1FC477970047C4D5 /* SQLiteManager.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		8B4540E90E2E36ABE2A665C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82FEDD131FC47ED80047C4D5 /* CoreLocation.framework */,
+				82FEDD0E1FC477A70047C4D5 /* libsqlite3.0.tbd */,
+				EFBC59A70301560B7B9709B9 /* libPods-InnovifyDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82FEDCBF1FC461BB0047C4D5 /* InnovifyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FEDCD61FC461BB0047C4D5 /* Build configuration list for PBXNativeTarget "InnovifyDemo" */;
+			buildPhases = (
+				4116024A950D03EC31598EEB /* [CP] Check Pods Manifest.lock */,
+				82FEDCBC1FC461BB0047C4D5 /* Sources */,
+				82FEDCBD1FC461BB0047C4D5 /* Frameworks */,
+				82FEDCBE1FC461BB0047C4D5 /* Resources */,
+				922C4507F421D17CC035B778 /* [CP] Embed Pods Frameworks */,
+				A02E1EB49BAAFEFA26058C24 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InnovifyDemo;
+			productName = InnovifyDemo;
+			productReference = 82FEDCC01FC461BB0047C4D5 /* InnovifyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82FEDCB81FC461BB0047C4D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Saurabh;
+				TargetAttributes = {
+					82FEDCBF1FC461BB0047C4D5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 82FEDCBB1FC461BB0047C4D5 /* Build configuration list for PBXProject "InnovifyDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82FEDCB71FC461BA0047C4D5;
+			productRefGroup = 82FEDCC11FC461BB0047C4D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82FEDCBF1FC461BB0047C4D5 /* InnovifyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82FEDCBE1FC461BB0047C4D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FEDCDE1FC46A130047C4D5 /* Localizable.strings in Resources */,
+				82FEDCCD1FC461BB0047C4D5 /* Assets.xcassets in Resources */,
+				82FEDD071FC476870047C4D5 /* InnovifyDemo.sqlite in Resources */,
+				82FEDD151FC480850047C4D5 /* Main.storyboard in Resources */,
+				82FEDD0C1FC477980047C4D5 /* readme.md in Resources */,
+				82FEDCF31FC4701B0047C4D5 /* ReadMe.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4116024A950D03EC31598EEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InnovifyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		922C4507F421D17CC035B778 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InnovifyDemo/Pods-InnovifyDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A02E1EB49BAAFEFA26058C24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InnovifyDemo/Pods-InnovifyDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82FEDCBC1FC461BB0047C4D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FEDCD31FC461BB0047C4D5 /* main.m in Sources */,
+				82FEDCED1FC46ECF0047C4D5 /* MainVCViewController.m in Sources */,
+				82FEDD001FC472980047C4D5 /* OTOGeneralSharedManager.m in Sources */,
+				82FEDCC51FC461BB0047C4D5 /* AppDelegate.m in Sources */,
+				82FEDD121FC47CA40047C4D5 /* OTOLocationManager.m in Sources */,
+				82FEDD051FC474960047C4D5 /* Reachability.m in Sources */,
+				82FEDD0D1FC477980047C4D5 /* SQLiteManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82FEDCE01FC46A130047C4D5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82FEDCDF1FC46A130047C4D5 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82FEDCD41FC461BB0047C4D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82FEDCD51FC461BB0047C4D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82FEDCD71FC461BB0047C4D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31FC96F3CA15B776C6713DF /* Pods-InnovifyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/InnovifyDemo/Resources/InnovifyDemo.pch";
+				INFOPLIST_FILE = InnovifyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.InnovifyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82FEDCD81FC461BB0047C4D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE216EFAC7F4CE72956DC83 /* Pods-InnovifyDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/InnovifyDemo/Resources/InnovifyDemo.pch";
+				INFOPLIST_FILE = InnovifyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.InnovifyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82FEDCBB1FC461BB0047C4D5 /* Build configuration list for PBXProject "InnovifyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FEDCD41FC461BB0047C4D5 /* Debug */,
+				82FEDCD51FC461BB0047C4D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FEDCD61FC461BB0047C4D5 /* Build configuration list for PBXNativeTarget "InnovifyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FEDCD71FC461BB0047C4D5 /* Debug */,
+				82FEDCD81FC461BB0047C4D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82FEDCB81FC461BB0047C4D5 /* Project object */;
+}
